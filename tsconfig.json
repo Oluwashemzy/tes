@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["react", "react-native", "jest"]
+  },
+  "include": ["src", "App.tsx", "index.js"],
+  "exclude": ["node_modules", "dist", "build"]
+}
